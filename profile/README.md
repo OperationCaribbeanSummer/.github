@@ -1,1 +1,3 @@
-Start README profile for the project operationcaribbeansummer
+## OperationCaribbeanSummer
+
+Starting dev project readme.
