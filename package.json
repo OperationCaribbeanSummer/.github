@@ -1,0 +1,87 @@
+{
+  "name": "Organization OperationCaribbeanSummer",
+  "version": "3.0.0",
+  "description": "⬛Github organization OperationCaribbeanSummer documentation and repositories descriptions.",
+  "keywords": [
+    "OperationCaribbeanSummer",
+    "WikiAgora",
+    "Ágora",
+    "Gobierno abierto",
+    "Corrupción política"
+  ],
+  "homepage": "https://github.com/OperationCaribbeanSummer/.github/profile#readme",
+  "bugs": {
+    "url": "https://github.com/OperationCaribbeanSummer/.github/issues?q=is_issue+label_bug",
+    "email": "co2mm.esperanto@gmail.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Javier Ramos Nistal",
+    "email": "co2mm.esperanto@gmail.com",
+    "url": "https://JaviRamosLab.com"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://OperationCaribbeanSummer.com/funding"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/OperationCaribbeanSummer"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/JaviRamosLab"
+    },
+    {
+      "type": "buymeacoffee",
+      "url": "https://www.buymeacoffee.com/JaviRamosLab"
+    },
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/JaviRamosLab"
+    },
+    {
+      "type": "liberapay",
+      "url": "https://liberapay.com/javiramoslab/"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/JaviRamosLab"
+    }
+  ],
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OperationCaribbeanSummer/WikiAgora.git"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "prod": "pm2 start app.js",
+    "dev": "node --watch app.js",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "lint:fix": "biome lint --write .",
+    "format:check": "biome format --check .",
+    "lint-ci": "biome ci .",
+    "check": "biome check .",
+    "check:fix": "biome check --write ."
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.3.3",
+    "vitepress": "^1.5.0"
+  }
+}
